@@ -22,7 +22,7 @@ Try grep in linux.
 grep "JS" *.md
 ```
 
-## Test you regular skill
+## Test you regular expression skill
 
 Maybe you already know and used regular express. Now, let's have a test:
 
@@ -40,4 +40,6 @@ E. \w*
 
 ## Tool to see your regex
 [state diagram](https://regexper.com/)
+
+> Note: For easy to write, we will use the 'regex' in the next chapter.
 
