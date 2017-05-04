@@ -41,6 +41,9 @@ Two main kind engine:
 
 ## Important features
 
+Lots of difference between each regex engine, but we can find some feature that appeared in most of them.
+Here I want to recommend a online regex tester: [regex101](https://regex101.com/)
+
 ### lazy && greedy
 
 ```
@@ -50,17 +53,50 @@ text = "abcde"
 ```
 Greedy regexG will match all the string "abcde" and lazy regexL will only match "a" in the text.
 
-### capture groups && Look around
+### capture groups && back reference 
 
 ```
 capture group (abc)
 non-capture group (?:abc)
 
-positive lookahead(?=abc)
-negative lookahead(?!=abc)
-positive lookbehind(?<=abc)
-negative lookahead(?<=abc)
+back reference /a(,)b\1/
 ```
 
-### recursive patterns ??(need more search)
+### Look around
+```
+positive lookahead(?=abc)
+negative lookahead(?!abc)
+positive lookbehind(?<=abc)
+negative lookbehind(?<!abc)
+```
+
+### recursive patterns
+which support recursive, perl, ruby, PHP...
+Here we use PHP for example:
+```
+regex = {(?:[^{}]+|(?R))*}
+text = body { color: #888; } @media (min-width: 768px) { body { color: #333; } } code { color: blue; }
+```
+
+difference from back reference.
+````
+regex = (sens|respons)e and \1ibility
+text = sense and responsibility
+````
+
+```
+regex = (sens|respons)e and (?1)ibility
+text = sense and responsibility
+```
+
+## Performance
+
+```
+(a|e|i|o|u) 
+[aeiou] 
+
+(a+)*b 
+a+b
+```
+
 

@@ -35,7 +35,8 @@ C. .[c-w.]{3,10}[.][c-w.][.][a]|.+
 D. [w][w][w][microsoft]+[com]+
 E. \w*
 ```
-链接：https://www.nowcoder.com/questionTerminal/09890d30b11145d28df93642577dc04f
+
+link：https://www.nowcoder.com/questionTerminal/09890d30b11145d28df93642577dc04f
 
 
 ## Tool to see your regex
