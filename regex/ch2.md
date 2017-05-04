@@ -92,11 +92,11 @@ text = sense and responsibility
 ## Performance
 
 ```
-(a|e|i|o|u) 
-[aeiou] 
+bad: (a|e|i|o|u) 
+good: [aeiou] 
 
-(a+)*b 
-a+b
+bad: (a+)*b 
+good: a+b
 ```
 
 
