@@ -37,9 +37,9 @@ s.match(/a.b/) -> "acb"
 s.match(/a.*b/) -> "acb aob alb"
 s.match(/a.*?b/) -> "acb"
 
-s.match(/a.b/g) -> ["acb", "aqb", "aub"]
+s.match(/a.b/g) -> ["acb", "aob", "alb"]
 s.match(/a.*b/g) -> ["acb aob alb"]
-s.match(/a.*?b/g) -> ["acb", "aqb", "aub"]
+s.match(/a.*?b/g) -> ["acb", "aob", "alb"]
 ```
 
 Greedy focus on the match pattern, flag g focus on match result.
