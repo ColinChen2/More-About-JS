@@ -17,7 +17,7 @@
 ### 解答
 1. 网景公司用捕获，IE用冒泡，最后W3C标准为先捕获再冒泡，默认冒泡阶段回调。
 2. 当鼠标点击，根据鼠标的位置信息创建出MouseEvent.最后的target将用一些算法在dispatch之前确定出targetEvent。
-3. 见上面的例子，domEvent.html.
+3. 见上面的例子，[domEvent.html]( https://colinchen2.github.io/More-About-JS/domEvent.html).
 4. 他们需要一起合作，比如鼠标点击。整个过程是鼠标点击-》产出mouse event -》task queue in event loop -》当空闲时候，处理event，task queue dispatch event e.target这时候就已经存在，就是谁dispatch的-》event flow，捕获，直到找到目标，冒泡-》回调。
 
 ## 常见问答：
