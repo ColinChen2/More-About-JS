@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="parent">
+    parent
+    <button id="child">children</button>
+    <input id="key">
+</div>
+
+<script>
+    var parent  = document.getElementById('parent');
+    parent.addEventListener('keydown', function (e) {
+        console.log('capture' + e.target +',' + e.currentTarget);
+        this.style.background = 'red';
+    }, true);
+
+    parent.addEventListener('click', function (e) {
+        console.log('capture' + e.target +',' + e.currentTarget);
+        this.style.background = 'red';
+    }, true);
+
+    var child = document.getElementById('child');
+    child.addEventListener('click', function (e) {
+        console.log('capture' + e.target +',' + e.currentTarget);
+        this.style.background = 'red';
+    }, true);
+
+    var key = document.getElementById('key');
+    key.addEventListener('keydown', function (e) {
+        console.log('capture' + e.target +',' + e.currentTarget);
+        this.style.background = 'red';
+    }, true);
+
+</script>
+
+</body>
+</html>
