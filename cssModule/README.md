@@ -24,7 +24,7 @@
 
 ### 解决方案
 
-### SASS
+### [SASS](http://sass-lang.com/guide)
 * variables
 * nesting
 * inheritance - extend
@@ -39,7 +39,7 @@
 1. 多层嵌套，选择器效率下降
 2. 多层嵌套，模块之间覆盖更加复杂
 
-### BEM
+### [BEM](http://getbem.com/introduction/)
 * smacss: scalable and modular architectur for css
 * BEM: block__element--modifier
 
@@ -77,10 +77,10 @@ just use smacss:
 }
 ```
 
-### css modular
+### [CSS Modular](https://github.com/css-modules/css-modules)
 implement: webpack css-loader
 
 sometime like: a clever way of automating BEM
 
-### styled components
+### [Styled Components](https://www.styled-components.com/docs/basics#getting-started)
 used in react-native mostly.
