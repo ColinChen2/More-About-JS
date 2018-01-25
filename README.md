@@ -5,6 +5,7 @@ Learn computer science and technology with JS
 
 * [regex](regex/README.md)
 * [domEvent](domEvent/README.md)
+* [cssModule](cssModule/README.md)
 
 ## Pages
 [home](https://colinchen2.github.io/More-About-JS/)
