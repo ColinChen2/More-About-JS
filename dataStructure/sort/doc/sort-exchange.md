@@ -40,6 +40,12 @@ function bubble(array) {
 ```
 
 ### 快速排序
+
+#### 实现算法：
+1. 选出初始中间值。
+2. 左右两边互相交换来达到，左边区域的值都小于中间值，右边区域的值都大于中间值。
+3. 递归地重复1，2步骤直至左右区域取完。
+
 ```javascript
 function quickSortRecursive(array, start, end) {
     if (start >= end) {

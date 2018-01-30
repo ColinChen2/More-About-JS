@@ -41,8 +41,8 @@ And then there are gems like this comment:
 
 结合上面的问题，从中挑经典的 **八种排序**：
 
-1. [交换排序](sort-exchange.md)：冒泡排序(简单)，快速排序
-2. [选择排序](sort-selection.md)：选择排序（简单），堆排序
+1. [交换排序](doc/sort-exchange.md)：冒泡排序(简单)，快速排序
+2. [选择排序](doc/sort-selection.md)：选择排序（简单），堆排序
 3. 插入排序：插入排序（简单），希尔排序
 4. 归并排序：归并排序
 5. 分布排序：基数排序
