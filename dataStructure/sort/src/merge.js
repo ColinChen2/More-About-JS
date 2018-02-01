@@ -19,23 +19,23 @@ function merge(array) {
 
 function mergeToOne(array, start, range) {
     let start1 = start;
-    let start2 = start + range;
-
     const end1 = start + range -1;
+
+    let start2 = start1 + range;
     const end2 = end1 + range;
+
     let result = [];
 
-    // odd number
+    // when group2 do not exist
     if (!array[start2]) {
         return;
     }
 
+    // group2 length may be less than group1, so here need check
     while (array[start2] && start1 <= end1 && start2 <= end2) {
         if (array[start1] < array[start2]) {
-            console.log(array[start1]);
             result.push(array[start1++]);
         } else {
-            console.log(array[start2]);
             result.push(array[start2++]);
         }
     }
@@ -48,7 +48,6 @@ function mergeToOne(array, start, range) {
         result = result.concat(array.slice(start2, end2 + 1))
     }
 
-    console.log(`result: ${result}`);
     [].splice.apply(array, [start, 2 * range].concat(result));
     console.log(`array: ${array.slice(0)}`);
 }
