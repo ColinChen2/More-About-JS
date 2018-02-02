@@ -44,7 +44,7 @@ And then there are gems like this comment:
 1. [交换排序](doc/sort-exchange.md)：冒泡排序(简单)，快速排序
 2. [选择排序](doc/sort-selection.md)：选择排序（简单），堆排序
 3. [插入排序](doc/sort-insertion.md)：插入排序（简单），希尔排序
-4. 归并排序：归并排序
+4. [归并排序](doc/sort-merge.md)：归并排序
 5. 分布排序：基数排序
 
 ### 参考链接
