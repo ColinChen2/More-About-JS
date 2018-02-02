@@ -121,3 +121,6 @@ function mergeTopToBottom(array) {
     return array;
 }
 ```
+
+## 源代码
+[sort-merge](../src/merge.js)

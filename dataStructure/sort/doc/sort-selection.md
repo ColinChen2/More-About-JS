@@ -96,3 +96,6 @@ function maxHeap(array, start, end) {
     return array;
 }
 ```
+
+## 源代码
+[sort-selection](../src/selection.js)
