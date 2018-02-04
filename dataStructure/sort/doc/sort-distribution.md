@@ -38,7 +38,7 @@ function radix(array) {
 
         let radix = Math.pow(10, i);
         for (let j = 0; j < array.length; j++) {
-            //取高位
+            //取当前高位
             const sub = Math.floor(array[j] / radix);
             //取个位
             let digit = sub % 10;
