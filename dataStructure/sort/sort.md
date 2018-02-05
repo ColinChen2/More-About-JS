@@ -47,6 +47,9 @@ And then there are gems like this comment:
 4. [归并排序](doc/sort-merge.md)：归并排序
 5. [分布排序](doc/sort-distribution.md)：基数排序
 
+### 例子
+[example](dist/index.html)
+
 ### 参考链接
 1. [wiki](https://en.wikipedia.org/wiki/Sorting_algorithm)
 2. [stackoverflow](https://stackoverflow.com/questions/234683/javascript-array-sort-implementation)
