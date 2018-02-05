@@ -1,4 +1,4 @@
-function bubble(array) {
+export function bubble(array) {
     if (!Array.isArray(array)) {
         return null;
     }
@@ -62,7 +62,7 @@ function quickSortRecursive(array, start, end) {
     return array;
 }
 
-function quickSort(array) {
+export function quickSort(array) {
     if (!Array.isArray(array)) {
         return null;
     }

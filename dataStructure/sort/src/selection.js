@@ -4,7 +4,7 @@ function exchange(array, a, b) {
     array[b] = temp;
 }
 
-function selection(array) {
+export function selection(array) {
     if (!Array.isArray(array)) {
         return null;
     }
@@ -36,7 +36,7 @@ function selection(array) {
  --------------------------------------------------
  */
 
-function heap(array) {
+export function heap(array) {
     if (!Array.isArray(array)) {
         return null;
     }

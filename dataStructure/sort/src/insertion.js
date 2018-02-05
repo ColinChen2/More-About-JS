@@ -26,7 +26,7 @@ function insertionDraft(array) {
     return array;
 }
 
-function insertion(array) {
+export function insertion(array) {
     if (!Array.isArray(array)) {
         return null;
     }
@@ -44,8 +44,7 @@ function insertion(array) {
     return array;
 }
 
-
-function shell(array) {
+export function shell(array) {
     if (!Array.isArray(array)) {
         return null;
     }

@@ -10,7 +10,7 @@ function getMaxDigit(array) {
     return max;
 }
 
-function radix(array) {
+export function radix(array) {
     const maxDigit = getMaxDigit(array);
     let buckets;
 

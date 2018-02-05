@@ -1,4 +1,4 @@
-function mergeBottomToTop(array) {
+export function mergeBottomToTop(array) {
     if (!Array.isArray(array)) {
         return null;
     }
@@ -93,7 +93,7 @@ function mergeRecursive(array, start, end) {
     [].splice.apply(array, [start, range].concat(result));
 }
 
-function mergeTopToBottom(array) {
+export function mergeTopToBottom(array) {
     mergeRecursive(array, 0, array.length - 1);
     return array;
 }
