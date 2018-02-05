@@ -1,1 +1,75 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <title>Title</title> <link rel="stylesheet" href="sort.css"></head> <body> <div class="main"> <h1>数据结构-排序</h1> <div> <h3>待排序的数据</h3> <textarea id="input"></textarea> <div> <button id="auto">自动</button> </div> </div> <div class="panel"> <h3>排序的算法</h3> <div class="item"> 交换排序: <div class="btn-group"> <button id="bubble">冒泡</button> <button id="quickSort">快速</button> </div> </div> <div class="item"> 选择排序: <div class="btn-group"> <button id="selection">选择</button> <button id="heap">堆</button> </div> </div> <div class="item"> 插入排序: <div class="btn-group"> <button id="insertion">插入</button> <button id="shell">希尔</button> </div> </div> <div class="item"> 归并排序: <div class="btn-group"> <button id="mergeBottomToTop">归并(迭代)</button> <button id="mergeTopToBottom">归并(递归)</button> </div> </div> <div class="item"> 分布排序: <div class="btn-group"> <button id="radix">基数</button> </div> </div> </div> <div> <h3>排序结果</h3> <div id="result" class="result"></div> <div> <button id="reset">清空</button> </div> </div> </div> <script src="sort.js"></script> </body> </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<link rel="stylesheet" href="sort.css"></head>
+<body>
+    <div class="main">
+        <h1>数据结构-排序</h1>
+
+        <div>
+            <h3>待排序的数据</h3>
+            <textarea id="input"></textarea>
+            <div>
+                <button id="auto">自动</button>
+            </div>
+
+        </div>
+
+        <div class="panel">
+            <h3>排序的算法</h3>
+            <div class="item">
+                交换排序:
+                <div class="btn-group">
+                    <button id="bubble">冒泡</button>
+                    <button id="quickSort">快速</button>
+                </div>
+            </div>
+
+            <div class="item">
+                选择排序:
+                <div class="btn-group">
+                    <button id="selection">选择</button>
+                    <button id="heap">堆</button>
+                </div>
+            </div>
+
+            <div class="item">
+                插入排序:
+                <div class="btn-group">
+                    <button id="insertion">插入</button>
+                    <button id="shell">希尔</button>
+                </div>
+            </div>
+
+            <div class="item">
+                归并排序:
+                <div class="btn-group">
+                    <button id="mergeBottomToTop">归并(迭代)</button>
+                    <button id="mergeTopToBottom">归并(递归)</button>
+                </div>
+            </div>
+
+            <div class="item">
+                分布排序:
+                <div class="btn-group">
+                    <button id="radix">基数</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div>
+            <h3>排序结果</h3>
+            <div id="result" class="result"></div>
+            <div>
+                <button id="reset">清空</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="sort.js"></script>
+</body>
+</html>

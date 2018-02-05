@@ -1,1 +1,21 @@
-.main{padding:20px 0 0 30px}.btn-group{display:inline-block}textarea{min-width:400px;min-height:80px}.result{width:420px;min-height:80px;background-color:#f0f8ff;padding:2px;margin:4px 0}
+.main {
+    padding: 20px 0 0 30px;
+}
+
+.btn-group {
+    display: inline-block;
+}
+
+textarea {
+    min-width: 400px;
+    min-height: 80px;
+}
+
+.result {
+    width: 420px;
+    min-height: 80px;
+    background-color: aliceblue;
+    padding: 2px;
+    margin: 4px 0;
+}
+
