@@ -48,7 +48,7 @@ And then there are gems like this comment:
 5. [分布排序](doc/sort-distribution.md)：基数排序
 
 ### 例子
-[example](dist/index.html)
+[example](https://colinchen2.github.io/More-About-JS/dataStructure/sort/dist/index.html)
 
 ### 参考链接
 1. [wiki](https://en.wikipedia.org/wiki/Sorting_algorithm)
