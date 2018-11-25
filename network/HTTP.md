@@ -3,7 +3,7 @@
 ## 网络基础
 TCP/IP 通信传输流，利用TCP/IP协议簇进行网络通信时，通过分层顺序与对方进行通信。发送端从应用层往下走，接收端从链路层往上走。
 
-<img src='./assets/network01.jpg' width='636'/>
+<img src='./assets/http-01.jpg' width='636'/>
 
 ## HTTP协议
 HTTP设计的简单实用，重点有这几个：
@@ -23,7 +23,7 @@ HTTP设计的简单实用，重点有这几个：
 ### 传输
 - 压缩传输内容: content-encoding: gzip
 
-<img src='./assets/network02.png' width='636'/>
+<img src='./assets/http-02.png' width='636'/>
 
 - 实体长度：Content-Length
 
@@ -34,7 +34,7 @@ HTTP设计的简单实用，重点有这几个：
 
 在传输大容量的数据时，通过把数据分割成多块，能够让浏览器逐步显示页面。
 
-<img src='./assets/network03.png' width='636'/>
+<img src='./assets/http-03.png' width='636'/>
 
 ### 缓存
 - expires
@@ -71,3 +71,6 @@ User-Agent的值是：用户使用的客户端的一些必要信息，比如操�
 ### 自行扩展
 HTTP 首部字段是可以自行扩展的，所以有时候你会看到一些非标准的首部字段：X-Frame-Options, X-XSS-Protection, DNT。
 很多自定协议都有X-前缀, 现在这种做法已经被废除。
+
+## HTTP的安全问题
+[HTTPS](./HTTPS.md)
