@@ -23,7 +23,7 @@ HTTP设计的简单实用，重点有这几个：
 ### 传输
 - 压缩传输内容: content-encoding: gzip
 
-<img src='./assets/network02.png width='636'/>
+<img src='./assets/network02.png' width='636'/>
 
 - 实体长度：Content-Length
 性能优化的指标TTFB(Time To First Byte),是从客户端发出请求到收到响应的第一个字节所花费的时间。服务端为了计算响应实体长度而缓存所有内容。
@@ -32,7 +32,7 @@ HTTP设计的简单实用，重点有这几个：
 - 分块传输: Transfer-Encoding: chunked
 在传输大容量的数据时，通过把数据分割成多块，能够让浏览器逐步显示页面。
 
-<img src='./assets/network03.png width='636'/>
+<img src='./assets/network03.png' width='636'/>
 
 ### 缓存
 - expires
