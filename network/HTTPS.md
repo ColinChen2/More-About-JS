@@ -19,7 +19,7 @@ HTTP简单，方便还很实用。但它也有不足之处：
 ## HTTPS=HTTP+加密+认证+完整性保护
 HTTPS是身披SSL外壳的HTTP。采用SSL协议，HTTP就拥有了HTTPS的加密，证书和完整性保护这些功能。
 
-<img src='./assets/https-01.jpg' width='636'/>
+<img src='./assets/https-01.png' width='636'/>
 那些问题解决了吗？
 
 ### 混合加密机制
@@ -27,12 +27,12 @@ HTTPS是身披SSL外壳的HTTP。采用SSL协议，HTTP就拥有了HTTPS的加�
 2. 使用非对称加密共享秘钥，然后用共享秘钥通信。那如何保证客户端使用的公钥是正确的，没被篡改过呢？
 3. 那就需要证明公钥正确的数字证书。
 
-<img src='./assets/https-02.jpg' width='636'/>
+<img src='./assets/https-02.png' width='636'/>
 
 ### MAC报文摘要
 应用层发送数据时会附加一种MAC(Message Authentication Code)的报文摘要。MAC能够查知报文是否遭到篡改，从而保护了报文的完整性。
 
 ### 整个流程
 
-<img src='./assets/https-03.jpg' width='636'/>
+<img src='./assets/https-03.png' width='636'/>
 
