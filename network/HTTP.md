@@ -3,7 +3,7 @@
 ## 网络基础
 TCP/IP 通信传输流，利用TCP/IP协议簇进行网络通信时，通过分层顺序与对方进行通信。发送端从应用层往下走，接收端从链路层往上走。
 
-<img src='./assets/network01.jpg' width='318'/>
+<img src='./assets/network01.jpg' width='636'/>
 
 ## HTTP协议
 HTTP设计的简单实用，重点有这个几个特点。
