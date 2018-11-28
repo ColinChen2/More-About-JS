@@ -7,6 +7,7 @@ Learn computer science and technology with JS
 * [domEvent](domEvent/README.md)
 * [cssModule](cssModule/README.md)
 * [dataStructure](dataStructure/README.md)
+* [network](network/README.md)
 
 ## Pages
 [home](https://colinchen2.github.io/More-About-JS/)
