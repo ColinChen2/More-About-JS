@@ -146,3 +146,4 @@ run(g);
 
 为什么result.value 是的函数呢，上面我们已经提到了。为了解决异步，我们让yeild 后面的语句也都包装成函数。
 
+尝试golang语言的goroutine
